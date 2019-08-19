@@ -50,4 +50,5 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="http://json.schemastore.org/ansible-stable-2.7" /></VisualStudio></ProjectExtensions>
 </Project>
