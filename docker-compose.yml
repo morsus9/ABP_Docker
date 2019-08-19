@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  abpdocker.web.host:
+    image: ${DOCKER_REGISTRY-}abpdockerwebhost
+    build:
+      context: .
+      dockerfile: src/ABPDocker.Web.Host/Dockerfile
