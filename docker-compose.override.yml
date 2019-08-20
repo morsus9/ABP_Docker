@@ -7,4 +7,5 @@ services:
     ports:
       - "32100:80"
     volumes:
+      - ${APPDATA}/root/Public/abpdocker:/app
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
