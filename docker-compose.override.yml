@@ -7,5 +7,5 @@ services:
     ports:
       - "32100:80"
     volumes:
-      - ${APPDATA}/root/Public/abpdocker:/app
+      - ./ABPDocker.Web.Host/bin/Release/netcoreapp2.2/publish:/app
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
