@@ -6,3 +6,9 @@ services:
     build:
       context: .
       dockerfile: src/ABPDocker.Web.Host/Dockerfile
+
+   reverse-proxy:
+    image: nginx
+    depends_on:
+      - abpdocker.web.host
+    
