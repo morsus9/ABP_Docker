@@ -15,3 +15,9 @@ services:
       - "9090:8080"
     volumes:
       - ${APPDATA}/root/Public/Nginx/proxy.conf:/etc/nginx/conf.d/default.conf
+
+  redis:
+    ports:
+      - "6379:6379"
+    volumes:
+      - ${APPDATA}/root/Public/Redis/data:/data
